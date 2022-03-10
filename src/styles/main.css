@@ -1,0 +1,43 @@
+body {
+  font-size: .875rem;
+}
+
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+main{
+  display: flex;
+  height: auto;
+}
+
+.sidebar{
+  width: 200px;
+  bottom: 0;
+  left: 0;
+}
+
+.contain{
+  width: 80%;
+  bottom: 0;
+  padding: 5% 0 3% 5% ;
+}
+
+.graphic{
+  height: 500px; 
+  width: 500px;
+}
