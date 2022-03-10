@@ -60,19 +60,19 @@ const Board = () => {
                     <div className="row">
                         <DataCard name="Nombre d'utilisteurs" value={data.length} />
                         <DataCard name="Nombre d'utilisteurs modifiés" value={edited} />
-                        <div className="col-6">
-                            <h2 className="mb-5 text-left">Nombre de catégorie</h2>
-
-                            <div className="graphic">
-                                <GraphChart chartData={chartData} />
-                            </div>
-                        </div>
                     </div>
                     <div className="row mt-3">
                         {isCharge ? (
                             <>
                                 <UserCard name="Premier Utilisateur" tab={data[0]} />
                                 <UserCard name="Dernier Utilisateur" tab={data[data.length - 1]} />
+                                <div className="col-6">
+                                    <h2 className="mb-5 text-left">Nombre de catégorie</h2>
+
+                                    <div className="graphic">
+                                        <GraphChart chartData={chartData} />
+                                    </div>
+                                </div>
                             </>
                         ) : (
                             <div className="col-8 mt-3">
