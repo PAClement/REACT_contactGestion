@@ -94,10 +94,10 @@ const User = ({ user }) => {
                                         <div className="form-group col-6 mt-2">
                                             <label htmlFor="category">Choose category :</label>
                                             <select onChange={(e) => setEditCategory(e.target.value)} defaultValue={user.category} id="category" className="form-select" aria-label="Default select example">
-                                                <option value="autres">autres</option>
-                                                <option value="famille">Famille</option>
-                                                <option value="ami">Ami</option>
-                                                <option value="travail">Travail</option>
+                                                <option value="Autres">autres</option>
+                                                <option value="Famille">Famille</option>
+                                                <option value="Ami">Ami</option>
+                                                <option value="Travail">Travail</option>
                                             </select>
                                         </div>
 

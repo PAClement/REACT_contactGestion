@@ -54,7 +54,7 @@
       "address": "campagne",
       "email": "jean.fr",
       "tel": "",
-      "category": "travail",
+      "category": "Travail",
       "isModify": 1646917116750,
       "id": 1646833237197
     },
@@ -64,7 +64,7 @@
       "address": "585 rue oui",
       "email": "alexis@hot.fr",
       "tel": "",
-      "category": "travail",
+      "category": "Travail",
       "isModify": 1646916660327,
       "id": 1646834407991
     },
@@ -83,7 +83,7 @@
       "address": "france",
       "email": "pierre.fr",
       "tel": "45855",
-      "category": "famille",
+      "category": "Famille",
       "isModify": 1646916902643,
       "id": 1646840581226
     },
@@ -93,7 +93,7 @@
       "address": "",
       "email": "drpes.fr",
       "tel": "",
-      "category": "famille",
+      "category": "Famille",
       "isModify": 1646917097477,
       "id": 1646897562738
     }
